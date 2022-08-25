@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fizzbuzz"
+version = "0.1.0"
+description = "My python implementation of FizzBuzz, a childhood game turned interview question"
+authors = ["AfterNoonPM <h2o.Drop2010@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^12.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[tool.poetry.scripts]
+fizzbuzz = "fizzbuzz.__main__:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
