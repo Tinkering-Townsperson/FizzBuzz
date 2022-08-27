@@ -1,7 +1,7 @@
 # FizzBuzz
 *My python implementation of FizzBuzz, a childhood game turned interview question*
 
-[Inspiration]()
+[Inspiration](https://youtu.be/QPZ0pIK_wsc)
 
 ### Table of contents
 [Back to top](#fizzbuzz)
