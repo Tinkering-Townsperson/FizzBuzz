@@ -3,8 +3,8 @@ import sys, fizzbuzz
 
 parser = ArgumentParser(prog="fizzbuzz.py", description="FizzBuzz: A childhood game turned interview question")
 parser.add_argument("-s", "--start", dest="start", type=int, default=1, help="The value of i at the start of the loop.")
-parser.add_argument("-f", "--stop", dest="stop", type=int, default=101, help="The loop gets stopped when i reaches this number.")
-parser.add_argument("-S", "--step", dest="step", type=int, default=1, help="i gets incremented by step every iteration of the loop.")
+parser.add_argument("-e", "--stop", dest="stop", type=int, default=101, help="The loop gets stopped when i reaches this number.")
+parser.add_argument("-i", "--step", dest="step", type=int, default=1, help="i gets incremented by step every iteration of the loop.")
 parser.add_argument("-F", "--fizz", dest="fizz", type=int, default=3, help="Multiples of this number are replaced by the phrase \"Fizz\".")
 parser.add_argument("-B", "--buzz", dest="buzz", type=int, default=5, help="Multiples of this number are replaced by the phrase \"Buzz\".")
 
