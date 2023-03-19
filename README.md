@@ -40,7 +40,7 @@ git clone https://github.com/tinkering-towsperson/fizzbuzz
 cd fizzbuzz
 poetry config virtualenvs.create false --local
 py -m venv .venv
-call .\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 poetry env use .\.venv\Scripts\python.exe
 poetry install
 ```
