@@ -1,4 +1,7 @@
-# ===PYTHON===
+##########
+# PYTHON #
+##########
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -32,7 +35,10 @@ old_**
 # Folders created when running pip install . or poetry install
 build/
 
-# ===OS-SPECIFIC===
+###############
+# OS-SPECIFIC #
+###############
+
 # Linux
 *~
 
